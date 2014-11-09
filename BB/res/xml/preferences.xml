@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name" >
+
+    <PreferenceCategory
+        android:key="@string/set_mswat"
+        android:title="@string/set_mswat" >
+    
+        
+         <ListPreference
+            android:defaultValue="tab2"
+            android:entries="@array/tprMode"
+            android:entryValues="@array/tprValues"
+            android:key="tpr"
+            android:summary="@string/set_tpr"
+            android:title="@string/tpr"
+            />
+         
+          
+         
+      <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="log"
+            android:summary="@string/log"
+            android:title="@string/log1" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
